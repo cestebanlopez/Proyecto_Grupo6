@@ -9,7 +9,7 @@ public class FechaHora {
     private Date date;
     private String fecha_hora;
 
-    public FechaHora(Date date) {
+         public FechaHora(Date date) {
         this.date = date;
     }
 
