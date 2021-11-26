@@ -3,7 +3,7 @@ package com.dansan.bean;
 
 public class HistoricoBean {
 
-    private String patente;
+    private String placa;
     private double hora_ocupacion;
     private char tipo_auto;
     private int piso;
@@ -11,17 +11,17 @@ public class HistoricoBean {
     private double importe;
 
     /**
-     * @return the patente
+     * @return the placa
      */
-    public String getPatente() {
-        return patente;
+    public String getPlaca() {
+        return placa;
     }
 
     /**
-     * @param patente the patente to set
+     * @param placa the placa to set
      */
-    public void setPatente(String patente) {
-        this.patente = patente;
+    public void setPlaca(String placa) {
+        this.placa = placa;
     }
 
     /**

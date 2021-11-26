@@ -11,7 +11,7 @@ public class TicketSalida implements Printable {
     private String hora_entrada;
     private int piso;
     private char tipo;
-    private String patente;
+    private String placa;
     private String hora_salida;
     private double importe;
 
@@ -19,7 +19,7 @@ public class TicketSalida implements Printable {
         this.hora_entrada = hora;
         this.piso = piso;
         this.tipo = tipo;
-        this.patente = patente;
+        this.placa = patente;
         this.hora_salida = hora_salida;
         this.importe = importe;
     }
@@ -34,8 +34,8 @@ public class TicketSalida implements Printable {
             graphics.drawString("" + piso, 180, 140);
             graphics.drawString("Tipo", 120, 160);
             graphics.drawString("" + tipo, 180, 160);
-            graphics.drawString("Patente", 120, 180);
-            graphics.drawString(patente, 180, 180);
+            graphics.drawString("Placa", 120, 180);
+            graphics.drawString(placa, 180, 180);
             graphics.drawString("Salida", 120, 200);
             graphics.drawString(hora_salida, 180, 200);
             graphics.drawString("Importe", 120, 220);

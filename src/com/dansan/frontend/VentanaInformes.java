@@ -47,7 +47,7 @@ public class VentanaInformes extends javax.swing.JDialog {
                     {null, null, null, null, null, null}
                 },
                 new String[]{
-                    "patente", "tipo de auto", "piso", "hora_entrada", "hora de salida", "importe"
+                    "Placa", "tipo de auto", "piso", "hora_entrada", "hora de salida", "importe"
                 }
         ) {
             Class[] types = new Class[]{
@@ -89,7 +89,7 @@ public class VentanaInformes extends javax.swing.JDialog {
                     {null, null, null, null}
                 },
                 new String[]{
-                    "patente", "tipo de auto", "piso", "hora de entrada"
+                    "Placa", "tipo de auto", "piso", "hora de entrada"
                 }
         ) {
             Class[] types = new Class[]{

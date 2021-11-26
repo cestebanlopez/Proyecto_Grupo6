@@ -32,7 +32,7 @@ public class VentanaBuscar extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        labelPatente.setText("Patente");
+        labelPatente.setText("Placa");
 
         labelPiso.setText("Piso");
 
@@ -67,7 +67,7 @@ public class VentanaBuscar extends javax.swing.JDialog {
                     {null, null, null, null}
                 },
                 new String[]{
-                    "Patente", "Piso", "Hora de Ingreso", "Tipo de Auto"
+                    "Placa", "Piso", "Hora de Ingreso", "Tipo de Auto"
                 }
         ) {
             Class[] types = new Class[]{
@@ -145,7 +145,7 @@ public class VentanaBuscar extends javax.swing.JDialog {
             DefaultTableModel tm33 = (DefaultTableModel) tablaCoches.getModel();
             tm33.setRowCount(0);
             if (bean.getPiso()>0) {
-                Object rowData[] = {bean.getPatente(), bean.getPiso(), dateEntrada.toString(), bean.getTipo_auto()};
+                Object rowData[] = {bean.getPlaca(), bean.getPiso(), dateEntrada.toString(), bean.getTipo_auto()};
                 tm33.addRow(rowData);
             }
         }
@@ -162,7 +162,7 @@ public class VentanaBuscar extends javax.swing.JDialog {
                     HistoricoBean bean = beanes.get(i);
                     Double d2 = bean.getHora_ocupacion();
                     Date dateEntrada = new Date(d2.longValue());
-                    Object rowData[] = {bean.getPatente(), bean.getPiso(), dateEntrada.toString(), bean.getTipo_auto()};
+                    Object rowData[] = {bean.getPlaca(), bean.getPiso(), dateEntrada.toString(), bean.getTipo_auto()};
                     tm33.addRow(rowData);
                 }
             }

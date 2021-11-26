@@ -47,7 +47,7 @@ public class VentanaEntrada extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setModal(true);
 
-        labelPatente.setText("Patente");
+        labelPatente.setText("Placa");
 
         labelPiso.setText("Piso");
 
@@ -158,7 +158,7 @@ public class VentanaEntrada extends javax.swing.JDialog {
         char tipo = campoTipo.getText().charAt(0);
         tipo = Character.toUpperCase(tipo);
         HistoricoBean bean = bdm.obtenerCoche(patente);
-        boolean patenteExistente = bean.getPatente() == patente;
+        boolean patenteExistente = bean.getPlaca() == patente;
         boolean longitudPatente = patente.length() == 6;
         boolean tipoCocheValido = tipo == 'G' || tipo == 'M' || tipo == 'P';
         if (bdm.numCochesEnCocheras(piso) < maxCochesEnCocherasPorPiso && piso <= maxPiso && !patenteExistente && tipoCocheValido && longitudPatente) { //Solo se permiten 20 autos por piso

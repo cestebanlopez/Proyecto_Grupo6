@@ -36,7 +36,7 @@ public class VentanaSalida extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        labelPatente.setText("Patente");
+        labelPatente.setText("Placa");
 
         try {
             campoPatente.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("UUU###")));

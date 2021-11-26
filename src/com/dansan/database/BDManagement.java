@@ -113,7 +113,7 @@ public class BDManagement {
             String query = "SELECT*FROM cocheras WHERE patente='" + patente + "'";
             ResultSet rs = st.executeQuery(query);
             if (rs.next()) {
-                bean.setPatente(rs.getString("patente"));
+                bean.setPlaca(rs.getString("patente"));
                 bean.setHora_ocupacion(rs.getDouble("hora_ocupacion"));
                 String cad = (String) rs.getObject("tipo_auto");
                 char c = cad.charAt(0);
@@ -135,7 +135,7 @@ public class BDManagement {
             rs.beforeFirst();
             while (rs.next()) {
                 HistoricoBean bean = new HistoricoBean();
-                bean.setPatente(rs.getString("patente"));
+                bean.setPlaca(rs.getString("patente"));
                 bean.setHora_ocupacion(rs.getDouble("hora_ocupacion"));
                 String cad = (String) rs.getObject("tipo_auto");
                 char c = cad.charAt(0);

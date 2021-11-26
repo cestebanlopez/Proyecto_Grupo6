@@ -10,13 +10,13 @@ public class TicketEntrada implements Printable {
     private String hora_entrada;
     private int piso;
     private char tipo;
-    private String patente;
+    private String Placa;
 
     public TicketEntrada(String hora, int piso, char tipo, String patente) {
         this.hora_entrada = hora;
         this.piso = piso;
         this.tipo = tipo;
-        this.patente = patente;
+        this.Placa = patente;
 
     }
 
@@ -30,8 +30,8 @@ public class TicketEntrada implements Printable {
             graphics.drawString("" + piso, 180, 140);
             graphics.drawString("Tipo", 120, 160);
             graphics.drawString("" + tipo, 180, 160);
-            graphics.drawString("Patente", 120, 180);
-            graphics.drawString(patente, 180, 180);
+            graphics.drawString("Placa", 120, 180);
+            graphics.drawString(Placa, 180, 180);
             return PAGE_EXISTS;
         } else {
             return NO_SUCH_PAGE;
