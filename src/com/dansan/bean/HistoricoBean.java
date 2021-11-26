@@ -1,9 +1,6 @@
 package com.dansan.bean;
 
-/**
- *
- * @author dansan
- */
+
 public class HistoricoBean {
 
     private String patente;

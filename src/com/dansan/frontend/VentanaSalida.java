@@ -13,10 +13,7 @@ import java.util.logging.Logger;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author dansan
- */
+
 public class VentanaSalida extends javax.swing.JDialog {
 
     BDManagement bdm = new BDManagement();

@@ -5,10 +5,7 @@ import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.text.DecimalFormat;
 
-/**
- *
- * @author dansan
- */
+
 public class TicketSalida implements Printable {
 
     private String hora_entrada;

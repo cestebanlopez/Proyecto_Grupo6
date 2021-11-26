@@ -3,10 +3,7 @@ package com.dansan.fechahora;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- *
- * @author dansan
- */
+
 public class FechaHora {
 
     private Date date;

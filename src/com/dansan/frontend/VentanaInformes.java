@@ -8,10 +8,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author dansan
- */
+
 public class VentanaInformes extends javax.swing.JDialog {
 
     BDManagement bdm = new BDManagement();

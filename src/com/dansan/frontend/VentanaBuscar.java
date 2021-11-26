@@ -6,10 +6,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author dansan
- */
+
 public class VentanaBuscar extends javax.swing.JDialog {
 
     BDManagement bdm = new BDManagement();

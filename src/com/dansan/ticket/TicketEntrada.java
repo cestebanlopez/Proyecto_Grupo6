@@ -4,10 +4,7 @@ import java.awt.Graphics;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 
-/**
- *
- * @author dansan
- */
+
 public class TicketEntrada implements Printable {
 
     private String hora_entrada;

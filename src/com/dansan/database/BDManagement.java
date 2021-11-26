@@ -14,10 +14,7 @@ import java.util.logging.Logger;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-/**
- *
- * @author dansan
- */
+
 public class BDManagement {
 
     /*private String username = "root";

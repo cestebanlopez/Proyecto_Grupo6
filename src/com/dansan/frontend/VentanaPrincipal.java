@@ -1,9 +1,6 @@
 package com.dansan.frontend;
 
-/**
- *
- * @author dansan
- */
+
 public class VentanaPrincipal extends javax.swing.JFrame {
 
     public VentanaPrincipal() {
